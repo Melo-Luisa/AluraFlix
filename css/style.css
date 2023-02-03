@@ -1,0 +1,84 @@
+
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url(../dark-vip-cinema-studio-still-life.jpg); 
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    color:white;
+    backdrop-filter: blur(15px);
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+    
+  }
+  
+  img {
+    max-height: 250px;
+    
+  }
+  .filme_img{
+    display: inline-block;
+    padding: 2rem;
+    margin: 1rem;
+    font-size: 16px;
+    
+  }
+  h2, h3{
+    color: rgb(255, 0, 0);
+  }
+  #entrada{
+    border: none;
+    border-radius: 1rem;
+    width: 10rem;
+    height: 1.5rem;
+    background-color: rgb(145, 9, 9);
+  }
+  #button{
+    border: none;
+    border-radius: 2rem;
+    height: 2rem;
+    width: 7rem;
+    font-family: "Roboto Mono", monospace;
+
+  }
+  #button:hover{
+    background-color: rgb(145, 9, 9);
+    color: #ffffff;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
